@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: WinCompose 0.7.8beta20170831\n"
@@ -232,8 +232,8 @@ msgid ""
 "Compose U 1 A 3 F Enter"
 msgstr ""
 "Skru på Unicode-inndata for alle tegn, selv dem uten definert "
-"sammenfattingssekvens. For eksempel, vil følgende sekvens skrive ut tegnet U"
-"+1A3F: Sammenfattingstast U 1 A 3 F"
+"sammenfattingssekvens. For eksempel, vil følgende sekvens skrive ut tegnet "
+"U+1A3F: Sammenfattingstast U 1 A 3 F"
 
 #. This is the name of a category of settings about what happens when invalid sequences are typed
 #: language/i18n/Text.resx:285 ID:InvalidSequences

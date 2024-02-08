@@ -1,6 +1,10 @@
 ﻿WinCompose
 ==========
 
+> [!NOTE]
+> This is a fork of WinCompose intended for personal use. Do not expect
+> any support or bugfix releases.
+
 A compose key for Windows, free and open-source, created by Sam Hocevar.
 
 A **compose key** allows to easily write special characters such as **é
@@ -11,14 +15,14 @@ very intuitive key combinations. For instance, **ö** is obtained using
 
 WinCompose also supports Emoji input for 😁 👻 👍 💩 🎁 🌹 🐊.
 
-Download latest: [WinCompose 0.9.11](https://github.com/samhocevar/wincompose/releases/download/v0.9.11/WinCompose-Setup-0.9.11.exe) (September 3, 2021) or [browse releases](https://github.com/samhocevar/wincompose/releases)
+Download latest: [WinCompose 0.9.12](https://github.com/arm32x/wincompose/releases/download/v0.9.12/WinCompose-Setup-0.9.12.exe) (February 8, 2024) or [browse releases](https://github.com/arm32x/wincompose/releases)
 ----------------
 
- * Installable version: [WinCompose 0.9.11 (installer)](https://github.com/samhocevar/wincompose/releases/download/v0.9.11/WinCompose-Setup-0.9.11.exe).
+ * Installable version: [WinCompose 0.9.12 (installer)](https://github.com/arm32x/wincompose/releases/download/v0.9.12/WinCompose-Setup-0.9.12.exe).
 
- * Portable version: [WinCompose 0.9.11 (portable)](https://github.com/samhocevar/wincompose/releases/download/v0.9.11/WinCompose-NoInstall-0.9.11.zip).
+ * Portable version: [WinCompose 0.9.12 (portable)](https://github.com/arm32x/wincompose/releases/download/v0.9.12/WinCompose-NoInstall-0.9.12.zip).
 
- * Older versions are available [in the releases section](https://github.com/samhocevar/wincompose/releases/).
+ * Older versions are available in the releases section of [this fork](https://github.com/arm32x/wincompose/releases/) or [the original](https://github.com/samhocevar/wincompose/releases/).
 
 **Note: this software is not digitally signed.** You can help with this by [donating to the project](http://wincompose.info/donate/).
 
@@ -109,9 +113,3 @@ Development
 Make sure that all Git submodules are fetched, then just open `src/wincompose.sln`
 in Visual Studio in order to build WinCompose. You will also need to install
 [Inno Setup](https://jrsoftware.org/isinfo.php) if you wish to build the installer.
-
-Bugs and Improvements
----------------------
-
-Please report bugs or suggest improvements to Sam Hocevar <sam@hocevar.net>
-or preferably to the [GitHub issue tracker](https://github.com/samhocevar/wincompose/issues).
