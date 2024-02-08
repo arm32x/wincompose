@@ -36,7 +36,7 @@ LANG = $(sort $(subst ., , $(suffix $(basename $(wildcard language/i18n/*.*.resx
 PORTABLE = WinCompose-NoInstall-$(VERSION).zip
 
 VSWHERE = "${ProgramFiles(x86)}/Microsoft Visual Studio/Installer/vswhere.exe"
-MSBUILD = TMP= TEMP= "$(shell $(VSWHERE) -latest -requires Microsoft.Component.MSBuild -find 'MSBuild/**/Bin/MSBuild.exe')"
+MSBUILD = "$(shell $(VSWHERE) -latest -requires Microsoft.Component.MSBuild -find 'MSBuild/**/Bin/MSBuild.exe')"
 MSGMERGE = msgmerge
 
 all: check installer portable
